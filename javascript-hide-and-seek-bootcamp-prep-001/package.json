@@ -1,0 +1,35 @@
+{
+  "name": "java-script-hide-and-seek",
+  "version": "0.1.0",
+  "description": "Practice finding and updating nodes in the DOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/learn-co-curriculum/java-script-hide-and-seek.git"
+  },
+  "keywords": [
+    "javascript",
+    "flatiron",
+    "learn"
+  ],
+  "author": "pletcher",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/java-script-hide-and-seek/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/java-script-hide-and-seek#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "expect": "^1.20.2",
+    "file-system": "^2.2.2",
+    "jsdom": "~9.2.1",
+    "mocha": "^5.2.0",
+    "mocha-jsdom": "~1.1.0",
+    "mocha-multi": "^1.0.1"
+  }
+}
