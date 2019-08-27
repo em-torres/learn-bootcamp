@@ -1,0 +1,28 @@
+{
+  "name": "creating-and-inserting-dom-nodes",
+  "version": "0.1.0",
+  "description": "Introduction to creating and inserting DOM elements",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/learn-co-curriculum/creating-and-inserting-dom-nodes.git"
+  },
+  "keywords": [
+    "javascript",
+    "flatiron",
+    "learn"
+  ],
+  "author": "pletcher",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/creating-and-inserting-dom-nodes/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/creating-and-inserting-dom-nodes#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jsdom": "^9.2.1",
+    "mocha": "^5.2.0",
+    "mocha-jsdom": "~1.1.0",
+    "mocha-multi": "^1.0.1"
+  }
+}
